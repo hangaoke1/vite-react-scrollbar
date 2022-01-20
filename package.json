@@ -1,0 +1,27 @@
+{
+  "name": "vite-react-scrollbar",
+  "version": "0.0.0",
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc && vite build",
+    "preview": "vite preview",
+    "publish": "gh-pages"
+  },
+  "dependencies": {
+    "@use-gesture/react": "^10.2.4",
+    "gh-pages": "^3.2.3",
+    "less": "^4.1.2",
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2",
+    "resize-observer-polyfill": "^1.5.1",
+    "throttle-debounce": "^3.0.1"
+  },
+  "devDependencies": {
+    "@types/react": "^17.0.33",
+    "@types/react-dom": "^17.0.10",
+    "@types/throttle-debounce": "^2.1.0",
+    "@vitejs/plugin-react": "^1.0.7",
+    "typescript": "^4.4.4",
+    "vite": "^2.7.2"
+  }
+}
